@@ -65,12 +65,11 @@ h2#label_usuario, h2#label_senha
 
 input#usuario, input#senha
 {
-    width: 55vw;
+    width: 60vw;
     font-size: 15px;
     background-color: #333333;
     padding: 5px;
     margin-left: 5px;
-    margin-bottom: 8px;
     border-radius: 8px;
     border: 1px solid #56B3FA;
     color: #56B3FA;
@@ -78,10 +77,11 @@ input#usuario, input#senha
 
 button
 {
-    width: 16vw;
+    width: 30vw;
     font-size: 18px;
     background-color: #333333;
     padding: 5px;
+    margin-top: 10px;
     margin-left: 5px;
     margin-bottom: 10px;
     border-radius: 8px;
@@ -94,10 +94,6 @@ button:hover
     background-color: #2E4053;
 }
 
-button#botao_entra
-{
-    margin-top: 40px;
-}
 
 a
 {
