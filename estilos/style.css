@@ -29,7 +29,7 @@ body
 div#formulario
 {
     width: 90vw;
-    display: block;
+    display: flex;
 }
 
 div#titulo_primario
@@ -78,7 +78,7 @@ h2#label_senha
 
 input#usuario, input#senha
 {
-    width: 45vw;
+    width: 55vw;
     font-size: 15px;
     background-color: #333333;
     padding: 5px;
