@@ -1,6 +1,69 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px)
+@media screen and (min-width: 768px) and (max-width: 992px) /*Tablet*/
+{
+    body
+    {
+        width: 100vw;
+        height: 100vh;
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(42, 89, 124) 35%, rgb(10, 89, 105) 100%);
+    }
+    form
+    {
+        width: 60vw;
+        height: 65vh;
+    }
+
+    div#cabeca_form
+    {
+        width: 31vw;
+        font-size: 1.5em;
+        margin-top: 30px;
+        padding-bottom: 40px;
+    }
+
+    img
+    {
+        width: 25vw;
+        position: absolute;
+        margin-left: 15vw;
+        margin-top: 0px;
+    }
+
+    h2#label_usuario, h2#label_senha
+    {
+        width: 30vw;
+        margin-top: 30px;
+    }
+
+    input#usuario, input#senha
+    {
+        width: 30vw;
+    }
+
+    button
+    {
+        width: 15vw;
+        margin-top: 30px;
+    }
+
+    button:hover
+    {
+        background-color: #2E4053;
+    }
+
+
+    a
+    {
+        color: #56B3FA;
+        font-size: 15px;
+        margin: 10px;
+    }
+
+}
+
+@media screen and (min-width: 992px)
 {
     body
     {
@@ -59,6 +122,4 @@
         font-size: 15px;
         margin: 10px;
     }
-
-
 }
