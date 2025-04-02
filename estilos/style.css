@@ -29,7 +29,7 @@ body
 div#formulario
 {
     width: 90vw;
-    display: flex;
+    margin: auto;
 }
 
 div#titulo_primario
