@@ -28,10 +28,20 @@ body
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(86,179,250,1) 35%, rgba(0,212,255,1) 100%);
 }
 
+h1#logo_marca
+{
+    margin-left: 30vw;
+}
+
+img
+{
+    width: 20vw;
+}
+
 div#cabeca_form
 {
     font-size: 16px;
-    border-bottom: 5px solid #2E4053;
+    border-bottom: 5px solid #56B3FA;
     padding-bottom: 15px;
 }
 
@@ -41,7 +51,6 @@ form
     height: 50vh;
     padding: 12px;
     background-color: #333333;
-    text-align: left;
     border: 2px solid #2E4053;
     border-radius: 8px;
     position: absolute;
