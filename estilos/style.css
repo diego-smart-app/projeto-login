@@ -35,7 +35,6 @@ div#titulo_primario
 {
     background-color: #333333;
     padding: 5px;
-    margin: auto;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     text-align: left;
@@ -44,6 +43,7 @@ div#titulo_primario
 
 form
 {
+    margin: auto;
     height: 60vh;
     background-color: #333333;
     text-align: left;
