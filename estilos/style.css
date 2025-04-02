@@ -23,7 +23,7 @@
 body
 {
     width: 100vw;
-    height: 100vh;
+    height: 100dvh;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(86,179,250,1) 35%, rgba(0,212,255,1) 100%);
 }
@@ -38,6 +38,7 @@ form
 {
     width: 90vw;
     height: 60vh;
+    padding: 12px;
     background-color: #333333;
     text-align: left;
     border: 2px solid #2E4053;
@@ -80,8 +81,7 @@ input#usuario, input#senha
     font-size: 15px;
     background-color: #333333;
     padding: 5px;
-    margin: 5px;
-    margin-top: 10px;
+    margin-left: 5px;
     margin-bottom: 10px;
     border-radius: 8px;
     border: 1px solid #56B3FA;
@@ -90,8 +90,8 @@ input#usuario, input#senha
 
 button
 {
-    width: 23vw;
-    font-size: 20px;
+    width: 18vw;
+    font-size: 16px;
     background-color: #333333;
     padding: 5px;
     margin: 5px;
