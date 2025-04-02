@@ -25,9 +25,14 @@ body
     background-color: black;
 }
 
+div#formulario
+{
+    width: 90vw;
+    margin: auto;
+}
+
 div#titulo_primario
 {
-    width: 83vw;
     background-color: #333333;
     margin: auto;
     margin-top: 20px;
@@ -38,18 +43,10 @@ div#titulo_primario
     border: 2px solid #2E4053;
 }
 
-img
-{
-    width: 10vw;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
 form
 {
     display: block;
-    width: 85vw;
-    height: 80vh;
+    height: 60vh;
     background-color: #333333;
     margin: auto;
     font-size: 14px;
@@ -85,7 +82,7 @@ h2#label_senha
 
 input#usuario, input#senha
 {
-    width: 60vw;
+    width: 40vw;
     font-size: 20px;
     background-color: #333333;
     padding: 5px;
@@ -99,7 +96,7 @@ input#usuario, input#senha
 
 button
 {
-    width: 62vw;
+    width: 30vw;
     font-size: 20px;
     background-color: #333333;
     padding: 5px;
@@ -118,4 +115,11 @@ button:hover
 button#botao_entra
 {
     margin-top: 40px;
+}
+
+a
+{
+    color: #56B3FA;
+    font-size: 1em;
+    margin: 10px;
 }
