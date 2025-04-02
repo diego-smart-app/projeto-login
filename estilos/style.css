@@ -29,14 +29,13 @@ body
 div#formulario
 {
     width: 90vw;
-    margin: auto;
+    margin-top: 10vh;
+    display: block;
 }
 
 div#titulo_primario
 {
     background-color: #333333;
-    display: block;
-    margin-top: 30px;
     padding: 5px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
