@@ -46,7 +46,7 @@ div#titulo_primario
 form
 {
     display: block;
-    height: 60vh;
+    height: 75vh;
     background-color: #333333;
     margin: auto;
     text-align: left;
@@ -95,7 +95,7 @@ input#usuario, input#senha
 
 button
 {
-    width: 15vw;
+    width: 23vw;
     font-size: 20px;
     background-color: #333333;
     padding: 5px;
