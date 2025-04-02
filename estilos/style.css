@@ -46,10 +46,9 @@ div#titulo_primario
 form
 {
     display: block;
-    height: 30vh;
+    height: 60vh;
     background-color: #333333;
     margin: auto;
-    font-size: 14px;
     text-align: left;
     border: 2px solid #2E4053;
     border-bottom-left-radius: 8px;
@@ -82,7 +81,7 @@ h2#label_senha
 
 input#usuario, input#senha
 {
-    width: 20vw;
+    width: 30vw;
     font-size: 20px;
     background-color: #333333;
     padding: 5px;
@@ -120,6 +119,6 @@ button#botao_entra
 a
 {
     color: #56B3FA;
-    font-size: 1em;
+    font-size: 15px;
     margin: 10px;
 }
