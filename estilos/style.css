@@ -24,8 +24,7 @@ body
 {
     width: 100vw;
     height: 100dvh;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(86,179,250,1) 35%, rgba(0,212,255,1) 100%);
+    background: black
 }
 
 h1#logo_marca
@@ -48,7 +47,7 @@ div#cabeca_form
 form
 {
     width: 80vw;
-    height: 70vh;
+    height: 90vh;
     padding: 12px;
     background-color: #333333;
     border: 2px solid #2E4053;
