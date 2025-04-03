@@ -72,6 +72,7 @@
         background: rgb(2,0,36);
         background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(42, 89, 124) 35%, rgb(10, 89, 105) 100%);
     }
+
     form
     {
         width: 60vw;
